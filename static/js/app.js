@@ -6,7 +6,7 @@ function optionChanged(selectedID){
     console.log(selectedID);
  
     // Read the json file 
-    d3.json("/Instructions/StarterCode/samples.json").then((data) => {
+    d3.json("samples.json").then((data) => {
  
    //  console.log(data);
  
